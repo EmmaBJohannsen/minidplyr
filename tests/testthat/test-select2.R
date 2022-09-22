@@ -3,9 +3,3 @@ test_that("select2() works with a vector of indices", {
   expect_s3_class(data, "data.frame")
   expect_equal(dim(data), c(nrow(iris), 3))
 })
-
-test_that("select2() works with a vector of variables", {
-  data = select2(iris, "species")
-  expect_s3_class(data, "data.frame")
-  expect_equal(dim(data), c(nrow(iris), 1))
-})
