@@ -16,5 +16,4 @@ Filter rows of a data frame.
 }
 \examples{
 filter2(iris, 1:2)
-filter2(iris, species == "setosa")
 }
