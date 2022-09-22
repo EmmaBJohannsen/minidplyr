@@ -10,7 +10,6 @@
 #'
 #' @examples
 #' filter2(iris, 1:2)
-#' filter2(iris, species == "setosa")
 filter2 <- function(data, ...) {
   data[...,]
 }
