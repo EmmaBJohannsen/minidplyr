@@ -3,7 +3,7 @@
 #' Filter rows of a data frame. 
 #' 
 #' @param data A data frame. 
-#' @param col A vector of indices. 
+#' @param ... A vector of indices. 
 #'
 #' @return
 #' @export
